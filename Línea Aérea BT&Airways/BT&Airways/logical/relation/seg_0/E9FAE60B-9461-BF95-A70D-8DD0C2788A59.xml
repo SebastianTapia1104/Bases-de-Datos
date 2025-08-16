@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reservas_Vuelo" directorySegmentName="seg_0" id="E9FAE60B-9461-BF95-A70D-8DD0C2788A59">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:15:59 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<sourcePk>84FBDE39-5B44-182A-EC90-28683D5533B1</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>a un solo</nameOnSource>
+<nameOnTarget>Muchas asignadas</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8FCAB346-2E53-2CE0-5BF3-7A34F752D179</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14C21F4B-33EA-B2B4-CA78-38283A40359F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

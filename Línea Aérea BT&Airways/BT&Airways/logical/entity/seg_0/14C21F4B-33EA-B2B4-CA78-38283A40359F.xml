@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14C21F4B-33EA-B2B4-CA78-38283A40359F" name="Reserva">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:11:56 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_reserva" id="6F13E1C9-8121-6433-84CC-493906B15E3E">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:12:12 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_reserva" id="0243AA98-8446-0C0F-EF97-1CCE7852E87D">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:12:24 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_vuelo" id="232FCF33-82D0-8CF6-8646-0B15435955BC">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:12:48 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_reserva" id="3FE7D83D-89F3-D815-B382-C852827459DC">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:13:03 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT033</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_vuelo" id="E8C4427C-7EF4-2504-4723-73053E9D824C">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:15:59 UTC</createdTime>
+<generatorID>E9FAE60B-9461-BF95-A70D-8DD0C2788A59</generatorID>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<referedAttribute>4BC9CD2D-E7B4-76D1-2B82-912BB11D764E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="552C3AE3-82EF-9FB6-39CE-4669E15D24B7">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:21:42 UTC</createdTime>
+<generatorID>E56D220A-A7EA-88BA-9DE1-A2C992D52557</generatorID>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<referedAttribute>AD9B33E2-2AED-66A3-D60B-5F5DD137335D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pasaporte" id="A1C34B2C-A8CD-A0F7-4A38-783B727C7F7E">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:26:47 UTC</createdTime>
+<generatorID>8F8BA18D-B03D-891C-CC7F-9832527AF2DC</generatorID>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<referedAttribute>5CE361CC-80F9-9D0C-EBFF-F926FBBD2732</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1050AE67-20A3-4966-EF0F-03F19D5714F1" name="Reserva PK">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 00:12:23 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6F13E1C9-8121-6433-84CC-493906B15E3E</attributeRef>
+<attributeRef>552C3AE3-82EF-9FB6-39CE-4669E15D24B7</attributeRef>
+<attributeRef>E8C4427C-7EF4-2504-4723-73053E9D824C</attributeRef>
+<attributeRef>A1C34B2C-A8CD-A0F7-4A38-783B727C7F7E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

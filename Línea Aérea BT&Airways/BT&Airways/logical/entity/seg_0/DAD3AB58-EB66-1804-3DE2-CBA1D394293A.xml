@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAD3AB58-EB66-1804-3DE2-CBA1D394293A" name="Pasajero">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:23:49 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pasaporte" id="5CE361CC-80F9-9D0C-EBFF-F926FBBD2732">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:24:30 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_completo" id="E7575551-F00E-7EBE-8FBC-5F92E6AC35E0">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:25:20 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="DDD62A21-8EEF-5804-312C-44FF29043F59">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:25:31 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="E030DB4A-D222-D29F-81D9-D7DBDB0602FC">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:25:46 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="07627F0A-10E5-94FE-FE08-08DE9940B5D0">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:25:56 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo" id="C181AA5B-D18A-004E-EA7E-E1453F9C9828">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:26:14 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86769C83-021D-9D44-19CE-A652C2F08202" name="Empleado PK">
+<createdBy>Seba</createdBy>
+<createdTime>2025-08-13 01:23:49 UTC</createdTime>
+<ownerDesignName>BT&amp;Airways</ownerDesignName>
+<engineerTo>
+<item key="29351435-CC6C-5B86-FEF0-E3E229F024FA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CE361CC-80F9-9D0C-EBFF-F926FBBD2732</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
