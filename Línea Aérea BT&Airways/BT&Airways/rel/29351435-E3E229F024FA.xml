@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="29351435-CC6C-5B86-FEF0-E3E229F024FA" mainViewID="009A4811-77FB-53F3-FB23-41EB42D91EB1">
-<createdBy>Seba</createdBy>
-<createdTime>2025-08-12 23:20:33 UTC</createdTime>
-<ownerDesignName>BT&amp;Airways</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>
